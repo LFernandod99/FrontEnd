@@ -1,0 +1,102 @@
+
+*{
+    margin: 0px;
+}
+
+
+
+h1{
+    text-align: center;
+    padding-top: 25px;
+}
+body{
+    background-color: grey;
+}
+.navBar{
+    background-color: black;
+    height: 20px;
+    padding-right: 0;
+}
+.introducao{
+    padding: 20px;
+}
+    
+p{
+    color: white;
+}
+
+.branco{
+    color: white;
+}
+
+.nav li a{
+    text-decoration: none;
+    color: white
+}
+
+.nav li a:hover{
+    color: blue;
+    font-size: 20px;
+}
+
+
+.nav li{
+
+    display: inline;
+    padding: 20px;
+}
+
+.container{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.container img{
+    padding: 15px;
+}
+
+.imgs{
+    padding-top: 50px;
+}
+
+.img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.imgs img :hover{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    
+}
+
+.imgs li{
+    display: inline;
+    padding: 30px ;
+}
+.rodape{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.rd-sociais{
+    padding: 50px;
+    padding-top: 174px;
+    padding-left: 660px;   
+}
+
+.rd-sociais li{
+    display: inline;
+    padding: 60px;
+}
+.tm-spcial{
+    padding: 50px;
+}
+
+.ecopy h6{
+    padding-top: 50px;
+    padding-left: 1024px;
+}
